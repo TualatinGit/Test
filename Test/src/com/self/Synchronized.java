@@ -14,10 +14,11 @@ public class Synchronized {
 		}
 		List<String> ls=new ArrayList<>();
 		long t=Calendar.getInstance().getTimeInMillis();
-		for(long i=0;i<1000000000;i++){
+		for(long i=0;i<100000000;i++){
 			ls.add("1");
 		}
 		System.out.println(Calendar.getInstance().getTimeInMillis()-t);
+		System.out.println();
 	}
 	
 }
