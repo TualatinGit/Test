@@ -19,6 +19,7 @@ public class Synchronized {
 		}
 		System.out.println(Calendar.getInstance().getTimeInMillis()-t);
 		System.out.println("t");
+		System.out.println("t2");
 	}
 	
 }
